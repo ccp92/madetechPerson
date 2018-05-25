@@ -1,5 +1,5 @@
 class Person
-  def initalize(first_name:, middle_name: nil, last_name:)
+  def initalize
     @first_name = first_name
     @middle_name = middle_name
     @last_name = last_name
