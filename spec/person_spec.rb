@@ -1,7 +1,7 @@
 require "person"
 
 describe Person do
-  person = Person.new
+  let(:person) {Person.new}
   describe "#full_name" do
     it "concatenates first name, middle name, and last name with spaces" do
       expect(person.full_name("Christopher", "Callum", "Parsons")).to eq("Christopher Callum Parsons")
