@@ -1,10 +1,4 @@
 class Person
-  def initalize
-    @first_name = first_name
-    @middle_name = middle_name
-    @last_name = last_name
-  end
-
   def full_name (*names)
     names.compact.join(" ")
     # .compact removes any nil values from an array.
